@@ -1,3 +1,6 @@
+# How to install python and run from Visual Code 
+# https://code.visualstudio.com/docs/python/python-tutorial#_prerequisites
+
 age = 0
 while age >= 0:
     try:
