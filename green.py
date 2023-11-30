@@ -1,3 +1,5 @@
+#Matrix green falling(?) character simulator
+
 from colorama import init as colorama_init
 from colorama import Fore
 from colorama import Style
@@ -20,7 +22,7 @@ while(lines > 0):
 
     index_to_change = random.randint(0, 9) * 2
     new_character_int = random.randint(0, 20)
-    new_character = chr(new_character_int + 48) #48 = 0x30 
+    new_character = chr(new_character_int + 48) #48 = 0x30 = ASCII code for "0"
     if(new_character_int > 9):
         new_character = " "
     time.sleep(0.1)      
